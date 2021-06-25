@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-06-25 Fri 15:28 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Forge Your Fate</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="spenser" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="diobla-info-custom.css"/>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Forge Your Fate
+<br />
+<span class="subtitle">Steam Summer Sale 2021 Event</span>
+</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgfecf641">Pages</a>
+<ul>
+<li><a href="#org0ef944b">3 The Mystery of Spider Cave</a></li>
+<li><a href="#orgc488abf">4 Journey to Action Island</a></li>
+<li><a href="#org11ef47d">5 The Forever Door</a></li>
+<li><a href="#orgff56094">6 Savior of Centauri</a></li>
+<li><a href="#orgf06c3f3">7 Clash of the Tyrants</a></li>
+<li><a href="#orgf688be1">8 Car Biscuit</a></li>
+<li><a href="#orga578c5c">9 Survive Superbike Island</a></li>
+<li><a href="#org3886b83">10 The Assassinaire</a></li>
+<li><a href="#orgbcefb2d">11 Hack Attack on Cyber City</a></li>
+<li><a href="#orgc774a8e">12 The Children of Space</a></li>
+<li><a href="#org2ace842">13 The Case of the Gun in your Face</a></li>
+<li><a href="#org60dad24">14 The Neverending Dungeon</a></li>
+<li><a href="#orge1dff68">16 Peach Pit Snap Academy</a></li>
+<li><a href="#org8266f63">17 The Heir of Ebonmorrow</a></li>
+<li><a href="#org5cda895">18 The Mystery of Spider Cave</a></li>
+<li><a href="#orgcd5473a">19 Journey to Action Island</a></li>
+<li><a href="#orgd45175f">20 The Forever Door</a></li>
+<li><a href="#orgb489037">22 The Neverending Dungeon</a></li>
+<li><a href="#org4c68cd7">23 Peach Pit Snap Academy</a></li>
+<li><a href="#org19365fd">26 The Case of the Gun in your Face</a></li>
+<li><a href="#org9266558">27 The Assassinaire</a></li>
+<li><a href="#org3f9af54">29 The Heir of Ebonmorrow</a></li>
+<li><a href="#orga23d5ab">30 Savior of Centauri</a></li>
+<li><a href="#orgc9881a4">33 Clash of the Tyrants</a></li>
+<li><a href="#orgba81151">34 The Children of Space</a></li>
+<li><a href="#org61c602c">38 Survive Superbike Island</a></li>
+<li><a href="#org5f157f2">39 Car Biscuit</a></li>
+<li><a href="#orgde93794">46 Hack Attack on Cyber City</a></li>
+</ul>
+</li>
+<li><a href="#org8dd38d5">"What KIND of Hero?" Results</a>
+<ul>
+<li><a href="#org7a82919">The Trailblazing Explorer</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfecf641" class="outline-2">
+<h2 id="orgfecf641">Pages</h2>
+<div class="outline-text-2" id="text-orgfecf641">
+<table id="org45b09d9" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Title</th>
+<th scope="col" class="org-left">Starting Page</th>
+<th scope="col" class="org-left">Option 1</th>
+<th scope="col" class="org-left">Option 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">JOURNEY TO ACTION ISLAND</td>
+<td class="org-left"><a href="#orgc488abf">Page 4</a></td>
+<td class="org-left"><a href="#orgcd5473a">Page 19</a></td>
+<td class="org-left">Page 24</td>
+</tr>
+
+<tr>
+<td class="org-left">THE FOREVER DOOR</td>
+<td class="org-left"><a href="#org11ef47d">Page 5</a></td>
+<td class="org-left"><a href="#orgd45175f">Page 20</a></td>
+<td class="org-left">Page 45</td>
+</tr>
+
+<tr>
+<td class="org-left">THE HEIR OF EBONMORROW</td>
+<td class="org-left"><a href="#org8266f63">Page 17</a></td>
+<td class="org-left"><a href="#org3f9af54">Page 29</a></td>
+<td class="org-left">Page 44</td>
+</tr>
+
+<tr>
+<td class="org-left">CLASH OF THE TYRANTS</td>
+<td class="org-left"><a href="#orgf06c3f3">Page 7</a></td>
+<td class="org-left"><a href="#orgc9881a4">Page 33</a></td>
+<td class="org-left">Page 43</td>
+</tr>
+
+<tr>
+<td class="org-left">SAVIOR OF CENTAURI</td>
+<td class="org-left"><a href="#orgff56094">Page 6</a></td>
+<td class="org-left"><a href="#orga23d5ab">Page 30</a></td>
+<td class="org-left">Page 41</td>
+</tr>
+
+<tr>
+<td class="org-left">CAR BISCUIT</td>
+<td class="org-left"><a href="#orgf688be1">Page 8</a></td>
+<td class="org-left"><a href="#org5f157f2">Page 39</a></td>
+<td class="org-left">Page 47</td>
+</tr>
+
+<tr>
+<td class="org-left">THE MYSTERY OF SPIDER CAVE</td>
+<td class="org-left"><a href="#org0ef944b">Page 3</a></td>
+<td class="org-left"><a href="#org5cda895">Page 18</a></td>
+<td class="org-left">Page 25</td>
+</tr>
+
+<tr>
+<td class="org-left">SURVIVE SUPERBIKE ISLAND</td>
+<td class="org-left"><a href="#orga578c5c">Page 9</a></td>
+<td class="org-left">Page 31</td>
+<td class="org-left"><a href="#org61c602c">Page 38</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE ASSASSINAIRE</td>
+<td class="org-left"><a href="#org3886b83">Page 10</a></td>
+<td class="org-left"><a href="#org9266558">Page 27</a></td>
+<td class="org-left">Page 36</td>
+</tr>
+
+<tr>
+<td class="org-left">HACK ATTACK ON CYBER CITY</td>
+<td class="org-left"><a href="#orgbcefb2d">Page 11</a></td>
+<td class="org-left">Page 28</td>
+<td class="org-left"><a href="#orgde93794">Page 46</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE CASE OF THE GUN IN YOUR FACE</td>
+<td class="org-left"><a href="#org2ace842">Page 13</a></td>
+<td class="org-left"><a href="#org19365fd">Page 26</a></td>
+<td class="org-left">Page 40</td>
+</tr>
+
+<tr>
+<td class="org-left">THE CHILDREN OF SPACE</td>
+<td class="org-left"><a href="#orgc774a8e">Page 12</a></td>
+<td class="org-left">Page 21</td>
+<td class="org-left"><a href="#orgba81151">Page 34</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE NEVERENDING DUNGEON</td>
+<td class="org-left"><a href="#org60dad24">Page 14</a></td>
+<td class="org-left"><a href="#orgb489037">Page 22</a></td>
+<td class="org-left">Page 35</td>
+</tr>
+
+<tr>
+<td class="org-left">PEACH PIT SNAP ACADEMY</td>
+<td class="org-left"><a href="#orge1dff68">Page 16</a></td>
+<td class="org-left"><a href="#org4c68cd7">Page 23</a></td>
+<td class="org-left">Page 42</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org0ef944b" class="outline-3">
+<h3 id="org0ef944b">3 The Mystery of Spider Cave</h3>
+<div class="outline-text-3" id="text-org0ef944b">
+<p>
+If there’s one thing you’re scared of, hoo boy, is it spiders. Some
+might call it a bad idea to walk into Spider Cave. Some might call you
+an idiot. Some ARE calling you an idiot, loudly, but you can barely
+hear them over the sound of you falling over a precipice into the web
+of a giant spider. Oh no! Do something, you idiot!
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you use your muscles, turn to <a href="#org5cda895">page 18</a>.</li>
+<li>If you use your brain, turn to page 25.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc488abf" class="outline-3">
+<h3 id="orgc488abf">4 Journey to Action Island</h3>
+<div class="outline-text-3" id="text-orgc488abf">
+<p>
+You love action. If you have one fault, it’s that you love action too
+much. If you have two faults, it’s that you love action too much and
+you’re selfish. For action. You get off the plane and flex your fists
+and smell the air and your fists. It’s a good day for action, you
+think, correctly.
+</p>
+
+<p>
+Suddenly! A massive smooth-skinned man with a moustache and
+angry-looking muscles leaps from behind the plane. "You!" he
+bellows. "We’re going to fight, unless you have something to say about
+that in the next three seconds!"
+</p>
+
+<p>
+Choices
+</p>
+<ul class="org-ul">
+<li>If you engage the smooth-skinned man in fisted combat, turn to
+<a href="#orgcd5473a">page 19</a>.</li>
+<li>If you get back on the plane, turn to page 24.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org11ef47d" class="outline-3">
+<h3 id="org11ef47d">5 The Forever Door</h3>
+<div class="outline-text-3" id="text-org11ef47d">
+<p>
+You wake up in a bare room, ready for casual adventure. Unfortunately,
+the door is locked. You search around for the key. There is no
+key. But you do notice there are six key-shaped parts hidden around
+the room.
+</p>
+
+<p>
+Choices
+</p>
+<ul class="org-ul">
+<li>If you collect the key-shaped parts, turn to <a href="#orgd45175f">page 20</a>.</li>
+<li>If you try to figure out another way out of the room, turn to
+page 45.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgff56094" class="outline-3">
+<h3 id="orgff56094">6 Savior of Centauri</h3>
+<div class="outline-text-3" id="text-orgff56094">
+<p>
+While playing your favorite spaceflight sim, Savior of Centauri, your
+concentration is broken by a knock at the door. An alien in a
+tight-fitting purple robe tells you he scattered copies of Savior of
+Centauri throughout the galaxy, looking for a champion to fight Baron
+Fornax. And while your high scores aren’t very impressive — you’re
+middle of the pack on your best day — he couldn’t help but notice how
+well you pause the game when you give up.
+</p>
+
+<p>
+"When I find my champion," he tells you, "the greatest player of
+Savior of Centauri the galaxy has ever seen, the person whose raw,
+simulated piloting skills will out-dogfight Baron Fornax and save a
+grateful universe from extinction… could you pause their game for them
+when they get tired?"
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you grab the alien and yank him inside, turn to <a href="#orga23d5ab">page 30</a>.</li>
+<li>If you agree to be the Grand Champion's Pause Master, turn to
+page 41.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf06c3f3" class="outline-3">
+<h3 id="orgf06c3f3">7 Clash of the Tyrants</h3>
+<div class="outline-text-3" id="text-orgf06c3f3">
+<p>
+Alexander the Great. Napoleon. Sauron. What do these men all have in
+common? They were the greatest military minds in Middle Earth. And
+none of them could read.
+</p>
+
+<p>
+That’s where you come in. Can you teach Sauron to read? It ain’t gonna
+be easy, friend. Sauron’s too proud to admit he’s
+illiterate. Napoleon’s too short to read. Alexander the Great doesn’t
+even speak English. It’s an epic strategic showdown to see who can
+read Watership Down first. And it’s all on you!
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you apply a hands-on teaching style, turn to <a href="#orgc9881a4">page 33</a>.</li>
+<li>If your teaching style is more intellectual, turn to page 43.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf688be1" class="outline-3">
+<h3 id="orgf688be1">8 Car Biscuit</h3>
+<div class="outline-text-3" id="text-orgf688be1">
+<p>
+Andretti. Earnhardt. Racer X. All great names in racing, but even
+their considerable driving skills pale in comparison to those of Corgi
+sensation Mr. Peanut Muffin. However, after a long 49-year career
+(twenty minutes in human years), and a recent string of crushing
+defeats, MPM has decided that his next race will be his last. As a
+member of the famed racer’s pit crew, you are determined to ensure
+that your boss wins his last race.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you remind him that he's a good boy, and that he still has it,
+turn to <a href="#org5f157f2">page 39</a>.</li>
+<li>If you sabotage his competitors, turn to page 47.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga578c5c" class="outline-3">
+<h3 id="orga578c5c">9 Survive Superbike Island</h3>
+<div class="outline-text-3" id="text-orga578c5c">
+<p>
+Your machete hacks through the dense jungle as you race for the
+airstrip. You’ll never make it, you think, and push the thought out of
+your head, down into your chest. You’ll never make it. You push the
+thought further, until it settles down in your thighs somewhere. Good.
+</p>
+
+<p>
+You’ll make it just fine, you think. Just avoid the superbikes at all
+costs.
+</p>
+
+<p>
+In the distance, you can hear the roar of the
+superbikes. Occasionally, above the jungle canopy, you see a superbike
+do an awesome flip. You’ll never make it, your thighs think. Those
+flips are too radical.
+</p>
+
+<p>
+"Shut up," your mouth says. But you all know it’s true.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you brute force your way to the airstrip, turn to page 31.</li>
+<li>If you try to outwit the superbikes, turn to <a href="#org61c602c">page 38</a>.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3886b83" class="outline-3">
+<h3 id="org3886b83">10 The Assassinaire</h3>
+<div class="outline-text-3" id="text-org3886b83">
+<p>
+You are a second-century hired killer in the Byzantine Empire. But
+what your rich clients don’t know is that you are also Zeus, father of
+all Greek gods, living in the mortal world. But there’s a problem:
+Poseidon wants you dead. There’s also another problem: you’re a member
+of the Knights Templar, sworn to protect the bloodline of Christ.
+</p>
+
+<p>
+That’s a lot of problems, even for Zeus. But there’s an even worse
+problem: A local store keeper needs you to find 100 feathers scattered
+around the city before he’ll sell you a clay pot. Which you apparently
+need, even though they’re everywhere.
+</p>
+
+<p>
+Anyway, the good news is, it looks like your boring feather hunt will
+have to wait, because there’s an angry mob of Byzantium guards lurking
+outside the pottery store. You’re going to have to quietly assassinate
+them all! Or find them 50 feathers each for some reason. Are feathers
+currency in the Byzantine Empire or something? Who knows.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you fight your way out of the store, turn to <a href="#org9266558">page 27</a>.</li>
+<li>If you find the guards' feathers, turn to page 36.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbcefb2d" class="outline-3">
+<h3 id="orgbcefb2d">11 Hack Attack on Cyber City</h3>
+<div class="outline-text-3" id="text-orgbcefb2d">
+<p>
+It is the year 2029. (Synthesizer hum.) PsiGenTech owns 99.999% of the
+world’s most precious, non-renewable resource… IP. (Synthesizer
+swells.)
+</p>
+
+<p>
+You are Enzo Monowire, owner of the only fictional character not
+controlled by PsiGenTech: Marmaduke, a large cartoon dog popular in
+the 1950s. But now PsiGenTech has a Netflix deal, and they’re coming
+for you.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you confront PsiGenTech, turn to page 28.</li>
+<li>If you try to outwit PsiGenTech, turn to <a href="#orgde93794">page 46</a>.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc774a8e" class="outline-3">
+<h3 id="orgc774a8e">12 The Children of Space</h3>
+<div class="outline-text-3" id="text-orgc774a8e">
+<p>
+In space, no one can hear you scream. Which is good, because that’s
+all you’ve done for the last six days. Your top shelf oxygen ran out
+on day two (you’re down to noxygen, the dollar store pork-flavored
+air). Engines are down. Now you’re just drifting. Drifting down that
+dusty trail called space. When suddenly…
+</p>
+
+<p>
+You think you can hear something above all the screaming, but you’d
+have to stop to know for sure, and that’s not going to happen. Through
+your viewport you see a small fleet of spaceships approaching, led by
+a larger fleet of battleships. A green face appears on your
+windshield. "WE HEARD YOU SCREAMING," screams the face. "IN SPACE,
+EVERYONE CAN HEAR YOU SCREAM IF YOU HAVE THAT BUTTON PRESSED." He
+points to the button you’ve been pressing for six days.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you enter into battle, turn to page 21.</li>
+<li>If you talk things through, turn to <a href="#orgba81151">page 34</a>.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2ace842" class="outline-3">
+<h3 id="org2ace842">13 The Case of the Gun in your Face</h3>
+<div class="outline-text-3" id="text-org2ace842">
+<p>
+Like all great detectives, you’ve got a mystery on your hands. Who IS
+this guy? And why’s he pointing a gun at your face?
+</p>
+
+<p>
+"I paid you $37,000 to find out who killed my brother," he snarls. Oh
+right. This guy.
+</p>
+
+<p>
+"I did," you agree. "It was hard and I gave up." You’re pretty sure
+you’ve got some points coming your way for this honest appraisal of
+your skills, but instead he just points the gun more.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you wrestle the gun away, turn to <a href="#org19365fd">page 26</a>.</li>
+<li>If you take the case again, turn to page 40.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org60dad24" class="outline-3">
+<h3 id="org60dad24">14 The Neverending Dungeon</h3>
+<div class="outline-text-3" id="text-org60dad24">
+<p>
+Escape attempt #3,095. "Curse this ever-changing dungeon!" you yell,
+waking up in your armor.  You sigh melodramatically — pouting,
+basically. Your steel-toed boots drag to a nearby treasure chest,
+where you reluctantly arm yourself with your useless crossbow and some
+stupid crossbow arrow sticks. "Whatever," you think. "It’s not like
+I’ll ever find a way out of this constantly-shifting labyrinth."
+</p>
+
+<p>
+Your mouse sidekick takes this moment to remind you, as she reminds
+you every day, that the dungeon is not ever-changing, and if you’d
+just take a minute to draw a map…
+</p>
+
+<p>
+"Bah! No time!" you bellow, clanging out of the room at full-speed.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you run down the hallway marked "Skeletons," turn to <a href="#orgb489037">page 22</a>.</li>
+<li>If you walk contemplatively down the hallway marked "Library of
+Maps," turn to page 35.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge1dff68" class="outline-3">
+<h3 id="orge1dff68">16 Peach Pit Snap Academy</h3>
+<div class="outline-text-3" id="text-orge1dff68">
+<p>
+Once, you thought you had it all&#x2026;  A job.  A family. A 2004 Honda
+Element. But your life was turned upside down once a talking sugar
+glider named Okada revealed the truth: You are actually the last
+living descendant of an ancient alien bloodline, and it is your
+responsibility to stop the vile machinations of the Black Lotus Ninja
+Clan.
+</p>
+
+<p>
+After 200 episodes, several spin-offs, and an arch-enemy who ended up
+being your long-lost mind-controlled sister, you finally track down
+the leader of the evil ninja cult that you vowed to destroy back in
+episode three, for some reason.
+</p>
+
+<p>
+Choices:
+</p>
+<ul class="org-ul">
+<li>If you unleash your ultimate attack, turn to <a href="#org4c68cd7">page 23</a>.</li>
+<li>If you appeal to his humanity, turn to page 42.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8266f63" class="outline-3">
+<h3 id="org8266f63">17 The Heir of Ebonmorrow</h3>
+<div class="outline-text-3" id="text-org8266f63">
+<p>
+You have assumed the role of a fictional person who is better than you
+in every way. You look in the mirror and admire your improved face. So
+much better than the older, fatter, uglier face you usually see when
+you look at things like this.
+</p>
+
+<p>
+You pull up your stats. Nice. You fiddle with your stats a bit, as
+your muscles bulge and shrink and the brain in your head gets bigger
+and smaller. You give yourself maximum stealth and suddenly forget
+where you are. You put it back to normal and give yourself brown
+hair. Nice.
+</p>
+
+<p>
+Time to reclaim your birthright, the Helmet of Ebonmorrow! Right after
+you choose some facial hair and a vest.
+</p>
+
+<p>
+Choices
+</p>
+<ul class="org-ul">
+<li>If you decide you're ready enough, turn to <a href="#org3f9af54">page 29</a>.</li>
+<li>If you take the time to carefully consider facial hair and a vest,
+turn to page 44.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5cda895" class="outline-3">
+<h3 id="org5cda895">18 The Mystery of Spider Cave</h3>
+<div class="outline-text-3" id="text-org5cda895">
+<p>
+You use your muscles — voice muscles, that is. You wisely remember
+from your wilderness training that bears are more afraid of you than
+you are of them, so you start screaming. As the spider jams its
+ovipositor down your wide open throat and lays eggs in your chest, you
+remember from your animal identification training that spiders are not
+bears.
+</p>
+
+<p>
+You wake up well-rested. The spider’s mild venom has given you eight
+solid hours of sleep. You yawn happily as the spider skitters into the
+room. "Rise and shine, sleepyhead! I made breakfast!" You tell the
+spider thank you but no, you’re already full of eggs.
+</p>
+
+<p>
+Reward: Spider Babies
+</p>
+</div>
+</div>
+<div id="outline-container-orgcd5473a" class="outline-3">
+<h3 id="orgcd5473a">19 Journey to Action Island</h3>
+<div class="outline-text-3" id="text-orgcd5473a">
+<p>
+The smooth-skinned man sails a lazy fist over your head like a
+blimp. "Curse my slow punches!" he scolds himself, then breaks down
+crying. You happily punch the tears back into his eyes.
+</p>
+
+<p>
+"I’d like to see you cry with this much action happening!" you laugh,
+and he gets it. One handshake later, you’re back on the
+plane. Destination: More action!
+</p>
+
+<p>
+Reward: CRY SOME MORE
+</p>
+</div>
+</div>
+<div id="outline-container-orgd45175f" class="outline-3">
+<h3 id="orgd45175f">20 The Forever Door</h3>
+<div class="outline-text-3" id="text-orgd45175f">
+<p>
+You find all the key parts and chew them together until they are a
+wadded-up mess of lead and teeth. You mash this into the keyhole
+several times, but the door pretends it doesn’t understand what you
+want it to do (open, stupid!).
+</p>
+
+<p>
+Suddenly, you clutch your stomach and start vomiting. Lead poisoning!
+They can’t ignore this! Just as you planned, paramedics unlock the
+door and race to your twitching body to restart your clever
+heart. Success! Next stop: Another room! Probably in a hospital!
+</p>
+
+<p>
+Reward: Lead Poisoning!
+</p>
+</div>
+</div>
+<div id="outline-container-orgb489037" class="outline-3">
+<h3 id="orgb489037">22 The Neverending Dungeon</h3>
+<div class="outline-text-3" id="text-orgb489037">
+<p>
+"Rarrrgh!" you yell, charging at the skeletons like you always do.
+</p>
+
+<p>
+"Hey, Terry," say the skeletons.
+</p>
+
+<p>
+"Hey guys," you say, slowing down. "Any word on that exit?"
+</p>
+
+<p>
+"What exit?"
+</p>
+
+<p>
+"Last time I gave you all my money and you said you’d find the exit
+for me."
+</p>
+
+<p>
+"Ohhh, that exit," says one of the skeletons while the others
+snicker. "I’m pretty sure it’s down this hallway, right guys?" More
+snickering, for some reason.
+</p>
+
+<p>
+"But this sign says Skeletons," you point out.
+</p>
+
+<p>
+"Look," says a snickering skeleton, throwing a bone arm around
+you. "If the last guy found a way out of this dungeon, he’d hardly
+turn back around and repaint the sign, would he?"
+</p>
+
+<p>
+He would not. By the Gods, of this much you are certain. You bellow
+down the hallway at full-speed.
+</p>
+
+<p>
+Reward: Hey, Terry
+</p>
+</div>
+</div>
+<div id="outline-container-org4c68cd7" class="outline-3">
+<h3 id="org4c68cd7">23 Peach Pit Snap Academy</h3>
+<div class="outline-text-3" id="text-org4c68cd7">
+<p>
+Energy whirls around you as you focus your Chi and prepare to unleash
+your devastating final attack, the forbidden but technically
+still-legal Oblivion Technique. Minutes turn to hours. You miss your
+rent payment. Seasons change. You’re evicted. Your niece graduates
+from middle school. Then high school.
+</p>
+
+<p>
+Finally, you’re ready to unleash the devastating blow that you trained
+half a lifetime to master. Unfortunately, your arch-rival already
+walked out of the line of fire of your Oblivion Technique several
+years ago, and now owns four AutoZones in Tampa. He, his wife and
+three adorable kids send you a card every Christmas, which you never
+receive because you’re still here preparing to fight him.
+</p>
+
+<p>
+Reward: Oblivion Technique
+</p>
+</div>
+</div>
+<div id="outline-container-org19365fd" class="outline-3">
+<h3 id="org19365fd">26 The Case of the Gun in your Face</h3>
+<div class="outline-text-3" id="text-org19365fd">
+<p>
+You reach out and grab the gun easily as a bullet pierces your
+chest. "Wow, did that hurt," you say, watching blood flower on your
+shirt and bag up at the bottom where you have it tucked in.
+</p>
+
+<p>
+He looks concerned. "Are you going to be okay? Can I have my gun
+back?" You shake your head sadly. No to both those questions.
+</p>
+
+<p>
+Reward: Wow, That Hurt
+</p>
+</div>
+</div>
+<div id="outline-container-org9266558" class="outline-3">
+<h3 id="org9266558">27 The Assassinaire</h3>
+<div class="outline-text-3" id="text-org9266558">
+<p>
+You silently assassinate them all in the street in broad daylight. As
+you’re dragging the last one into the giant body pile under the
+street’s only shadow, you trip and accidentally sit on the vial with
+the blood of Christ in it. So now you’ve got a new problem, because
+the Knights Templar are not going to be happy about this.
+</p>
+
+<p>
+Reward: Assassinaire
+</p>
+</div>
+</div>
+<div id="outline-container-org3f9af54" class="outline-3">
+<h3 id="org3f9af54">29 The Heir of Ebonmorrow</h3>
+<div class="outline-text-3" id="text-org3f9af54">
+<p>
+You decide you’re ready enough and enter the dungeon! You are
+immediately stabbed.
+</p>
+
+<p>
+"You’re not part of the facial hair and vest clan!" says an orc.
+</p>
+
+<p>
+"How can you tell?" asks a wizard, uncertain. The orc walks through
+his reasoning, pointing to your gasping hairless face and naked,
+stabbed torso. The wizard nods.
+</p>
+
+<p>
+Luckily, back on the character screen, you took the skill points most
+people waste on Strength and Intelligence, and gambled them all on the
+massively unpopular Coronary Artery Disease. The orc’s knife is unable
+to pierce the thick, plaque-covered walls of your heart! Since your
+character is either too weak or too stupid to stand up, the wizard and
+orc stab you over and over again in the heart until their rusty
+weapons break. Eventually, they wander off. Your character is the
+best! You are a fantasy genius!
+</p>
+
+<p>
+Reward: Fantasy Genius
+</p>
+</div>
+</div>
+<div id="outline-container-orga23d5ab" class="outline-3">
+<h3 id="orga23d5ab">30 Savior of Centauri</h3>
+<div class="outline-text-3" id="text-orga23d5ab">
+<p>
+You make the case that Savior of Centauri is great and all, but what
+if it’s not enough? What if it turns out the key to beating Fornax is
+something the alien recruiter hadn’t even thought of?
+</p>
+
+<p>
+"I hadn’t thought of that," he admits. "What did you have in mind?" An
+hour later, you have shown him your flawless pancake-flipping
+technique, your flawless pancake-eating technique, and your ability to
+bench press fifty pounds if the alien spots you and you aren’t full of
+pancakes. The alien considers all this and leaves. You ask him if he’s
+leaving because of all the stuff you showed him, or if he’s just
+busy. He says all the stuff.
+</p>
+
+<p>
+Reward: Flawless Pancakes
+</p>
+</div>
+</div>
+<div id="outline-container-orgc9881a4" class="outline-3">
+<h3 id="orgc9881a4">33 Clash of the Tyrants</h3>
+<div class="outline-text-3" id="text-orgc9881a4">
+<p>
+"Keep those hands up, Sauron!" you say, peppering his headgear with
+your training gloves. The bantamweight semi-finals are next week in
+Raleigh, North Carolina, and Sauron’s got a legit shot. Napoleon
+teases Alexander with body blows in the next practice ring. They’re
+all looking good, and you’re proud of them. "What’s my weight class
+requirement again?" asks Napoleon. You hand him the rulebook… and he
+reads it, without even thinking. Your guys. Your little men. You did
+it.
+</p>
+
+<p>
+Reward: Keep Those Hands Up
+</p>
+</div>
+</div>
+<div id="outline-container-orgba81151" class="outline-3">
+<h3 id="orgba81151">34 The Children of Space</h3>
+<div class="outline-text-3" id="text-orgba81151">
+<p>
+"PEACE!" you scream, pressing the PEACE button.
+</p>
+
+<p>
+The green face is impressed. "NO ONE HAS EVER YELLED AT US FOR PEACE
+BEFORE," he says, bouncing his index fingers off each other
+sheepishly. "MAYBE WE CAN BE&#x2026; FRIENDS?" Your distraction worked! You
+send all of your missiles his way while he’s busy being friends with
+you.
+</p>
+
+<p>
+Reward: Peace in Space
+</p>
+</div>
+</div>
+<div id="outline-container-org61c602c" class="outline-3">
+<h3 id="org61c602c">38 Survive Superbike Island</h3>
+<div class="outline-text-3" id="text-org61c602c">
+<p>
+You start cutting down trees until you have enough wood to build a
+crude ramp. You position it out over a gorge. Your handmade bamboo
+superbike whistle echoes through the jungle. "Pooot-oo-weet!"
+</p>
+
+<p>
+One by one, the superbikes streak out of the jungle, mount the ramp,
+and perform sick motocross tricks while plummeting into the
+gorge. Even the superbikes that saw what happened to the first
+superbikes do it. They can’t help themselves. Too radical.
+</p>
+
+<p>
+You have survived the day.  But dusk approaches, and with it: the
+Night Bikes. You’d better start foraging for garlic.
+</p>
+
+<p>
+Reward: Sick Trick
+</p>
+</div>
+</div>
+<div id="outline-container-org5f157f2" class="outline-3">
+<h3 id="org5f157f2">39 Car Biscuit</h3>
+<div class="outline-text-3" id="text-org5f157f2">
+<p>
+Encouraged by your words, the Corgi gets behind the wheel and gives it
+his all.  After an intense back and forth, the race ends in a photo
+finish between Mr. Peanut Muffin and his long-standing cat rival,
+Danica Patrick’s cat. While waiting for the official result, the Corgi
+holds his head as high as a thousand years of inbreeding will
+allow. Win or lose, this race will be remembered forever.
+</p>
+
+<p>
+Reward: Good Boy
+</p>
+</div>
+</div>
+<div id="outline-container-orgde93794" class="outline-3">
+<h3 id="orgde93794">46 Hack Attack on Cyber City</h3>
+<div class="outline-text-3" id="text-orgde93794">
+<p>
+You know something the cybersuits don’t: Marmaduke can’t be held in a
+cage. Marmaduke is a gift to the world. You race in your cyber-2004
+Honda Element to the copyright office and file the paperwork to put
+Marmaduke into the public domain. The clerk tells you that Marmaduke
+has been in the public domain for 57 years.
+</p>
+
+<p>
+"I see," you say, tossing your katana from hand to hand.
+</p>
+
+<p>
+Five minutes of silence follow. The clerk asks: "Do you actually see?"
+You don’t, but the government can’t know that. You turn around and
+stalk back outside, your trenchcoat billowing in the neon breeze,
+secure in the knowledge that you have saved Marmaduke. Somehow.
+</p>
+
+<p>
+Reward: Neon Breeze
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8dd38d5" class="outline-2">
+<h2 id="org8dd38d5">"What KIND of Hero?" Results</h2>
+<div class="outline-text-2" id="text-org8dd38d5">
+</div>
+<div id="outline-container-org7a82919" class="outline-3">
+<h3 id="org7a82919">The Trailblazing Explorer</h3>
+<div class="outline-text-3" id="text-org7a82919">
+<p>
+Nothing thrills you more than being the first to set foot on a
+floating continent or diving into the depths of a lost city. Your
+archeologist friends say you should spend less time punching Nazis and
+more time dusting grains of sand off femurs. They’re going to be
+dusting grains of your foot out of their ass if they don’t get off
+your back about this stuff.
+</p>
+
+<table id="orgeab9a15" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Title</th>
+<th scope="col" class="org-left">Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">JOURNEY TO ACTION ISLAND</td>
+<td class="org-left"><a href="#orgcd5473a">Page 19</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE FOREVER DOOR</td>
+<td class="org-left"><a href="#orgd45175f">Page 20</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE HEIR OF EBONMORROW</td>
+<td class="org-left"><a href="#org3f9af54">Page 29</a></td>
+</tr>
+
+<tr>
+<td class="org-left">CLASH OF THE TYRANTS</td>
+<td class="org-left"><a href="#orgc9881a4">Page 33</a></td>
+</tr>
+
+<tr>
+<td class="org-left">SAVIOR OF CENTAURI</td>
+<td class="org-left"><a href="#orga23d5ab">Page 30</a></td>
+</tr>
+
+<tr>
+<td class="org-left">CAR BISCUIT</td>
+<td class="org-left"><a href="#org5f157f2">Page 39</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE MYSTERY OF SPIDER CAVE</td>
+<td class="org-left"><a href="#org5cda895">Page 18</a></td>
+</tr>
+
+<tr>
+<td class="org-left">SURVIVE SUPERBIKE ISLAND</td>
+<td class="org-left"><a href="#org61c602c">Page 38</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE ASSASSINAIRE</td>
+<td class="org-left"><a href="#org9266558">Page 27</a></td>
+</tr>
+
+<tr>
+<td class="org-left">HACK ATTACK ON CYBER CITY</td>
+<td class="org-left"><a href="#orgde93794">Page 46</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE CASE OF THE GUN IN YOUR FACE</td>
+<td class="org-left"><a href="#org19365fd">Page 26</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE CHILDREN OF SPACE</td>
+<td class="org-left"><a href="#orgba81151">Page 34</a></td>
+</tr>
+
+<tr>
+<td class="org-left">THE NEVERENDING DUNGEON</td>
+<td class="org-left"><a href="#orgb489037">Page 22</a></td>
+</tr>
+
+<tr>
+<td class="org-left">PEACH PIT SNAP ACADEMY</td>
+<td class="org-left"><a href="#org4c68cd7">Page 23</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2021-06-25 Fri 00:00</p>
+<p class="author">Author: spenser</p>
+<p class="date">Created: 2021-06-25 Fri 15:28</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

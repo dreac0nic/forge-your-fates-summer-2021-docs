@@ -1,0 +1,459 @@
+#+TITLE: Forge Your Fate
+#+SUBTITLE: Steam Summer Sale 2021 Event
+#+AUTHOR: spenser
+#+EMAIL: spenser.m.bray@gmail.com
+#+DATE: [2021-06-25 Fri]
+#+OPTIONS: num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="diobla-info-custom.css"/>
+
+* Pages
+#+NAME: Table of Contents
+| Title                            | Starting Page | Option 1 | Option 2 |
+|----------------------------------+---------------+----------+----------|
+| JOURNEY TO ACTION ISLAND         | [[*4 Journey to Action Island][Page 4]]        | [[*19 Journey to Action Island][Page 19]]  | Page 24  |
+| THE FOREVER DOOR                 | [[*5 The Forever Door][Page 5]]        | [[*20 The Forever Door][Page 20]]  | Page 45  |
+| THE HEIR OF EBONMORROW           | [[*17 The Heir of Ebonmorrow][Page 17]]       | [[*29 The Heir of Ebonmorrow][Page 29]]  | Page 44  |
+| CLASH OF THE TYRANTS             | [[*7 Clash of the Tyrants][Page 7]]        | [[*33 Clash of the Tyrants][Page 33]]  | Page 43  |
+| SAVIOR OF CENTAURI               | [[*6 Savior of Centauri][Page 6]]        | [[*30 Savior of Centauri][Page 30]]  | Page 41  |
+| CAR BISCUIT                      | [[*8 Car Biscuit][Page 8]]        | [[*39 Car Biscuit][Page 39]]  | Page 47  |
+| THE MYSTERY OF SPIDER CAVE       | [[*3 The Mystery of Spider Cave][Page 3]]        | [[*18 The Mystery of Spider Cave][Page 18]]  | Page 25  |
+| SURVIVE SUPERBIKE ISLAND         | [[*9 Survive Superbike Island][Page 9]]        | Page 31  | [[*38 Survive Superbike Island][Page 38]]  |
+| THE ASSASSINAIRE                 | [[*10 The Assassinaire][Page 10]]       | [[*27 The Assassinaire][Page 27]]  | Page 36  |
+| HACK ATTACK ON CYBER CITY        | [[*11 Hack Attack on Cyber City][Page 11]]       | Page 28  | [[*46 Hack Attack on Cyber City][Page 46]]  |
+| THE CASE OF THE GUN IN YOUR FACE | [[*13 The Case of the Gun in your Face][Page 13]]       | [[*26 The Case of the Gun in your Face][Page 26]]  | Page 40  |
+| THE CHILDREN OF SPACE            | [[*12 The Children of Space][Page 12]]       | Page 21  | [[*34 The Children of Space][Page 34]]  |
+| THE NEVERENDING DUNGEON          | [[*14 The Neverending Dungeon][Page 14]]       | [[*22 The Neverending Dungeon][Page 22]]  | Page 35  |
+| PEACH PIT SNAP ACADEMY           | [[*16 Peach Pit Snap Academy][Page 16]]       | [[*23 Peach Pit Snap Academy][Page 23]]  | Page 42  |
+** 3 The Mystery of Spider Cave
+If there’s one thing you’re scared of, hoo boy, is it spiders. Some
+might call it a bad idea to walk into Spider Cave. Some might call you
+an idiot. Some ARE calling you an idiot, loudly, but you can barely
+hear them over the sound of you falling over a precipice into the web
+of a giant spider. Oh no! Do something, you idiot!
+
+Choices:
+- If you use your muscles, turn to [[*18 The Mystery of Spider Cave][page 18]].
+- If you use your brain, turn to page 25.
+** 4 Journey to Action Island
+You love action. If you have one fault, it’s that you love action too
+much. If you have two faults, it’s that you love action too much and
+you’re selfish. For action. You get off the plane and flex your fists
+and smell the air and your fists. It’s a good day for action, you
+think, correctly.
+
+Suddenly! A massive smooth-skinned man with a moustache and
+angry-looking muscles leaps from behind the plane. "You!" he
+bellows. "We’re going to fight, unless you have something to say about
+that in the next three seconds!"
+
+Choices
+- If you engage the smooth-skinned man in fisted combat, turn to
+  [[*19 Journey to Action Island][page 19]].
+- If you get back on the plane, turn to page 24.
+** 5 The Forever Door
+You wake up in a bare room, ready for casual adventure. Unfortunately,
+the door is locked. You search around for the key. There is no
+key. But you do notice there are six key-shaped parts hidden around
+the room.
+
+Choices
+- If you collect the key-shaped parts, turn to [[*20 The Forever Door][page 20]].
+- If you try to figure out another way out of the room, turn to
+  page 45.
+** 6 Savior of Centauri
+While playing your favorite spaceflight sim, Savior of Centauri, your
+concentration is broken by a knock at the door. An alien in a
+tight-fitting purple robe tells you he scattered copies of Savior of
+Centauri throughout the galaxy, looking for a champion to fight Baron
+Fornax. And while your high scores aren’t very impressive — you’re
+middle of the pack on your best day — he couldn’t help but notice how
+well you pause the game when you give up.
+
+"When I find my champion," he tells you, "the greatest player of
+Savior of Centauri the galaxy has ever seen, the person whose raw,
+simulated piloting skills will out-dogfight Baron Fornax and save a
+grateful universe from extinction… could you pause their game for them
+when they get tired?"
+
+Choices:
+- If you grab the alien and yank him inside, turn to [[*30 Savior of Centauri][page 30]].
+- If you agree to be the Grand Champion's Pause Master, turn to
+  page 41.
+** 7 Clash of the Tyrants
+Alexander the Great. Napoleon. Sauron. What do these men all have in
+common? They were the greatest military minds in Middle Earth. And
+none of them could read.
+
+That’s where you come in. Can you teach Sauron to read? It ain’t gonna
+be easy, friend. Sauron’s too proud to admit he’s
+illiterate. Napoleon’s too short to read. Alexander the Great doesn’t
+even speak English. It’s an epic strategic showdown to see who can
+read Watership Down first. And it’s all on you!
+
+Choices:
+- If you apply a hands-on teaching style, turn to [[*33 Clash of the Tyrants][page 33]].
+- If your teaching style is more intellectual, turn to page 43.
+** 8 Car Biscuit
+Andretti. Earnhardt. Racer X. All great names in racing, but even
+their considerable driving skills pale in comparison to those of Corgi
+sensation Mr. Peanut Muffin. However, after a long 49-year career
+(twenty minutes in human years), and a recent string of crushing
+defeats, MPM has decided that his next race will be his last. As a
+member of the famed racer’s pit crew, you are determined to ensure
+that your boss wins his last race.
+
+Choices:
+- If you remind him that he's a good boy, and that he still has it,
+  turn to [[*39 Car Biscuit][page 39]].
+- If you sabotage his competitors, turn to page 47.
+** 9 Survive Superbike Island
+Your machete hacks through the dense jungle as you race for the
+airstrip. You’ll never make it, you think, and push the thought out of
+your head, down into your chest. You’ll never make it. You push the
+thought further, until it settles down in your thighs somewhere. Good.
+
+You’ll make it just fine, you think. Just avoid the superbikes at all
+costs.
+
+In the distance, you can hear the roar of the
+superbikes. Occasionally, above the jungle canopy, you see a superbike
+do an awesome flip. You’ll never make it, your thighs think. Those
+flips are too radical.
+
+"Shut up," your mouth says. But you all know it’s true.
+
+Choices:
+- If you brute force your way to the airstrip, turn to page 31.
+- If you try to outwit the superbikes, turn to [[*38 Survive Superbike Island][page 38]].
+** 10 The Assassinaire
+You are a second-century hired killer in the Byzantine Empire. But
+what your rich clients don’t know is that you are also Zeus, father of
+all Greek gods, living in the mortal world. But there’s a problem:
+Poseidon wants you dead. There’s also another problem: you’re a member
+of the Knights Templar, sworn to protect the bloodline of Christ.
+
+That’s a lot of problems, even for Zeus. But there’s an even worse
+problem: A local store keeper needs you to find 100 feathers scattered
+around the city before he’ll sell you a clay pot. Which you apparently
+need, even though they’re everywhere.
+
+Anyway, the good news is, it looks like your boring feather hunt will
+have to wait, because there’s an angry mob of Byzantium guards lurking
+outside the pottery store. You’re going to have to quietly assassinate
+them all! Or find them 50 feathers each for some reason. Are feathers
+currency in the Byzantine Empire or something? Who knows.
+
+Choices:
+- If you fight your way out of the store, turn to [[*27 The Assassinaire][page 27]].
+- If you find the guards' feathers, turn to page 36.
+** 11 Hack Attack on Cyber City
+It is the year 2029. (Synthesizer hum.) PsiGenTech owns 99.999% of the
+world’s most precious, non-renewable resource… IP. (Synthesizer
+swells.)
+
+You are Enzo Monowire, owner of the only fictional character not
+controlled by PsiGenTech: Marmaduke, a large cartoon dog popular in
+the 1950s. But now PsiGenTech has a Netflix deal, and they’re coming
+for you.
+
+Choices:
+- If you confront PsiGenTech, turn to page 28.
+- If you try to outwit PsiGenTech, turn to [[*46 Hack Attack on Cyber City][page 46]].
+** 12 The Children of Space
+In space, no one can hear you scream. Which is good, because that’s
+all you’ve done for the last six days. Your top shelf oxygen ran out
+on day two (you’re down to noxygen, the dollar store pork-flavored
+air). Engines are down. Now you’re just drifting. Drifting down that
+dusty trail called space. When suddenly…
+
+You think you can hear something above all the screaming, but you’d
+have to stop to know for sure, and that’s not going to happen. Through
+your viewport you see a small fleet of spaceships approaching, led by
+a larger fleet of battleships. A green face appears on your
+windshield. "WE HEARD YOU SCREAMING," screams the face. "IN SPACE,
+EVERYONE CAN HEAR YOU SCREAM IF YOU HAVE THAT BUTTON PRESSED." He
+points to the button you’ve been pressing for six days.
+
+Choices:
+- If you enter into battle, turn to page 21.
+- If you talk things through, turn to [[*34 The Children of Space][page 34]].
+** 13 The Case of the Gun in your Face
+Like all great detectives, you’ve got a mystery on your hands. Who IS
+this guy? And why’s he pointing a gun at your face?
+
+"I paid you $37,000 to find out who killed my brother," he snarls. Oh
+right. This guy.
+
+"I did," you agree. "It was hard and I gave up." You’re pretty sure
+you’ve got some points coming your way for this honest appraisal of
+your skills, but instead he just points the gun more.
+
+Choices:
+- If you wrestle the gun away, turn to [[*26 The Case of the Gun in your Face][page 26]].
+- If you take the case again, turn to page 40.
+** 14 The Neverending Dungeon
+Escape attempt #3,095. "Curse this ever-changing dungeon!" you yell,
+waking up in your armor.  You sigh melodramatically — pouting,
+basically. Your steel-toed boots drag to a nearby treasure chest,
+where you reluctantly arm yourself with your useless crossbow and some
+stupid crossbow arrow sticks. "Whatever," you think. "It’s not like
+I’ll ever find a way out of this constantly-shifting labyrinth."
+
+Your mouse sidekick takes this moment to remind you, as she reminds
+you every day, that the dungeon is not ever-changing, and if you’d
+just take a minute to draw a map…
+
+"Bah! No time!" you bellow, clanging out of the room at full-speed.
+
+Choices:
+- If you run down the hallway marked "Skeletons," turn to [[*22 The Neverending Dungeon][page 22]].
+- If you walk contemplatively down the hallway marked "Library of
+  Maps," turn to page 35.
+** 16 Peach Pit Snap Academy
+Once, you thought you had it all...  A job.  A family. A 2004 Honda
+Element. But your life was turned upside down once a talking sugar
+glider named Okada revealed the truth: You are actually the last
+living descendant of an ancient alien bloodline, and it is your
+responsibility to stop the vile machinations of the Black Lotus Ninja
+Clan.
+
+After 200 episodes, several spin-offs, and an arch-enemy who ended up
+being your long-lost mind-controlled sister, you finally track down
+the leader of the evil ninja cult that you vowed to destroy back in
+episode three, for some reason.
+
+Choices:
+- If you unleash your ultimate attack, turn to [[*23 Peach Pit Snap Academy][page 23]].
+- If you appeal to his humanity, turn to page 42.
+** 17 The Heir of Ebonmorrow
+You have assumed the role of a fictional person who is better than you
+in every way. You look in the mirror and admire your improved face. So
+much better than the older, fatter, uglier face you usually see when
+you look at things like this.
+
+You pull up your stats. Nice. You fiddle with your stats a bit, as
+your muscles bulge and shrink and the brain in your head gets bigger
+and smaller. You give yourself maximum stealth and suddenly forget
+where you are. You put it back to normal and give yourself brown
+hair. Nice.
+
+Time to reclaim your birthright, the Helmet of Ebonmorrow! Right after
+you choose some facial hair and a vest.
+
+Choices
+- If you decide you're ready enough, turn to [[*29 The Heir of Ebonmorrow][page 29]].
+- If you take the time to carefully consider facial hair and a vest,
+  turn to page 44.
+** 18 The Mystery of Spider Cave
+You use your muscles — voice muscles, that is. You wisely remember
+from your wilderness training that bears are more afraid of you than
+you are of them, so you start screaming. As the spider jams its
+ovipositor down your wide open throat and lays eggs in your chest, you
+remember from your animal identification training that spiders are not
+bears.
+
+You wake up well-rested. The spider’s mild venom has given you eight
+solid hours of sleep. You yawn happily as the spider skitters into the
+room. "Rise and shine, sleepyhead! I made breakfast!" You tell the
+spider thank you but no, you’re already full of eggs.
+
+Reward: Spider Babies
+** 19 Journey to Action Island
+The smooth-skinned man sails a lazy fist over your head like a
+blimp. "Curse my slow punches!" he scolds himself, then breaks down
+crying. You happily punch the tears back into his eyes.
+
+"I’d like to see you cry with this much action happening!" you laugh,
+and he gets it. One handshake later, you’re back on the
+plane. Destination: More action!
+
+Reward: CRY SOME MORE
+** 20 The Forever Door
+You find all the key parts and chew them together until they are a
+wadded-up mess of lead and teeth. You mash this into the keyhole
+several times, but the door pretends it doesn’t understand what you
+want it to do (open, stupid!).
+
+Suddenly, you clutch your stomach and start vomiting. Lead poisoning!
+They can’t ignore this! Just as you planned, paramedics unlock the
+door and race to your twitching body to restart your clever
+heart. Success! Next stop: Another room! Probably in a hospital!
+
+Reward: Lead Poisoning!
+** 22 The Neverending Dungeon
+"Rarrrgh!" you yell, charging at the skeletons like you always do.
+
+"Hey, Terry," say the skeletons.
+
+"Hey guys," you say, slowing down. "Any word on that exit?"
+
+"What exit?"
+
+"Last time I gave you all my money and you said you’d find the exit
+for me."
+
+"Ohhh, that exit," says one of the skeletons while the others
+snicker. "I’m pretty sure it’s down this hallway, right guys?" More
+snickering, for some reason.
+
+"But this sign says Skeletons," you point out.
+
+"Look," says a snickering skeleton, throwing a bone arm around
+you. "If the last guy found a way out of this dungeon, he’d hardly
+turn back around and repaint the sign, would he?"
+
+He would not. By the Gods, of this much you are certain. You bellow
+down the hallway at full-speed.
+
+Reward: Hey, Terry
+** 23 Peach Pit Snap Academy
+Energy whirls around you as you focus your Chi and prepare to unleash
+your devastating final attack, the forbidden but technically
+still-legal Oblivion Technique. Minutes turn to hours. You miss your
+rent payment. Seasons change. You’re evicted. Your niece graduates
+from middle school. Then high school.
+
+Finally, you’re ready to unleash the devastating blow that you trained
+half a lifetime to master. Unfortunately, your arch-rival already
+walked out of the line of fire of your Oblivion Technique several
+years ago, and now owns four AutoZones in Tampa. He, his wife and
+three adorable kids send you a card every Christmas, which you never
+receive because you’re still here preparing to fight him.
+
+Reward: Oblivion Technique
+** 26 The Case of the Gun in your Face
+You reach out and grab the gun easily as a bullet pierces your
+chest. "Wow, did that hurt," you say, watching blood flower on your
+shirt and bag up at the bottom where you have it tucked in.
+
+He looks concerned. "Are you going to be okay? Can I have my gun
+back?" You shake your head sadly. No to both those questions.
+
+Reward: Wow, That Hurt
+** 27 The Assassinaire
+You silently assassinate them all in the street in broad daylight. As
+you’re dragging the last one into the giant body pile under the
+street’s only shadow, you trip and accidentally sit on the vial with
+the blood of Christ in it. So now you’ve got a new problem, because
+the Knights Templar are not going to be happy about this.
+
+Reward: Assassinaire
+** 29 The Heir of Ebonmorrow
+You decide you’re ready enough and enter the dungeon! You are
+immediately stabbed.
+
+"You’re not part of the facial hair and vest clan!" says an orc.
+
+"How can you tell?" asks a wizard, uncertain. The orc walks through
+his reasoning, pointing to your gasping hairless face and naked,
+stabbed torso. The wizard nods.
+
+Luckily, back on the character screen, you took the skill points most
+people waste on Strength and Intelligence, and gambled them all on the
+massively unpopular Coronary Artery Disease. The orc’s knife is unable
+to pierce the thick, plaque-covered walls of your heart! Since your
+character is either too weak or too stupid to stand up, the wizard and
+orc stab you over and over again in the heart until their rusty
+weapons break. Eventually, they wander off. Your character is the
+best! You are a fantasy genius!
+
+Reward: Fantasy Genius
+** 30 Savior of Centauri
+You make the case that Savior of Centauri is great and all, but what
+if it’s not enough? What if it turns out the key to beating Fornax is
+something the alien recruiter hadn’t even thought of?
+
+"I hadn’t thought of that," he admits. "What did you have in mind?" An
+hour later, you have shown him your flawless pancake-flipping
+technique, your flawless pancake-eating technique, and your ability to
+bench press fifty pounds if the alien spots you and you aren’t full of
+pancakes. The alien considers all this and leaves. You ask him if he’s
+leaving because of all the stuff you showed him, or if he’s just
+busy. He says all the stuff.
+
+Reward: Flawless Pancakes
+** 33 Clash of the Tyrants
+"Keep those hands up, Sauron!" you say, peppering his headgear with
+your training gloves. The bantamweight semi-finals are next week in
+Raleigh, North Carolina, and Sauron’s got a legit shot. Napoleon
+teases Alexander with body blows in the next practice ring. They’re
+all looking good, and you’re proud of them. "What’s my weight class
+requirement again?" asks Napoleon. You hand him the rulebook… and he
+reads it, without even thinking. Your guys. Your little men. You did
+it.
+
+Reward: Keep Those Hands Up
+** 34 The Children of Space
+"PEACE!" you scream, pressing the PEACE button.
+
+The green face is impressed. "NO ONE HAS EVER YELLED AT US FOR PEACE
+BEFORE," he says, bouncing his index fingers off each other
+sheepishly. "MAYBE WE CAN BE... FRIENDS?" Your distraction worked! You
+send all of your missiles his way while he’s busy being friends with
+you.
+
+Reward: Peace in Space
+** 38 Survive Superbike Island
+You start cutting down trees until you have enough wood to build a
+crude ramp. You position it out over a gorge. Your handmade bamboo
+superbike whistle echoes through the jungle. "Pooot-oo-weet!"
+
+One by one, the superbikes streak out of the jungle, mount the ramp,
+and perform sick motocross tricks while plummeting into the
+gorge. Even the superbikes that saw what happened to the first
+superbikes do it. They can’t help themselves. Too radical.
+
+You have survived the day.  But dusk approaches, and with it: the
+Night Bikes. You’d better start foraging for garlic.
+
+Reward: Sick Trick
+** 39 Car Biscuit
+Encouraged by your words, the Corgi gets behind the wheel and gives it
+his all.  After an intense back and forth, the race ends in a photo
+finish between Mr. Peanut Muffin and his long-standing cat rival,
+Danica Patrick’s cat. While waiting for the official result, the Corgi
+holds his head as high as a thousand years of inbreeding will
+allow. Win or lose, this race will be remembered forever.
+
+Reward: Good Boy
+** 46 Hack Attack on Cyber City
+You know something the cybersuits don’t: Marmaduke can’t be held in a
+cage. Marmaduke is a gift to the world. You race in your cyber-2004
+Honda Element to the copyright office and file the paperwork to put
+Marmaduke into the public domain. The clerk tells you that Marmaduke
+has been in the public domain for 57 years.
+
+"I see," you say, tossing your katana from hand to hand.
+
+Five minutes of silence follow. The clerk asks: "Do you actually see?"
+You don’t, but the government can’t know that. You turn around and
+stalk back outside, your trenchcoat billowing in the neon breeze,
+secure in the knowledge that you have saved Marmaduke. Somehow.
+
+Reward: Neon Breeze
+* "What KIND of Hero?" Results
+** The Trailblazing Explorer
+Nothing thrills you more than being the first to set foot on a
+floating continent or diving into the depths of a lost city. Your
+archeologist friends say you should spend less time punching Nazis and
+more time dusting grains of sand off femurs. They’re going to be
+dusting grains of your foot out of their ass if they don’t get off
+your back about this stuff.
+
+#+NAME: Required Options
+| Title                            | Choice  |
+|----------------------------------+---------|
+| JOURNEY TO ACTION ISLAND         | [[*19 Journey to Action Island][Page 19]] |
+| THE FOREVER DOOR                 | [[*20 The Forever Door][Page 20]] |
+| THE HEIR OF EBONMORROW           | [[*29 The Heir of Ebonmorrow][Page 29]] |
+| CLASH OF THE TYRANTS             | [[*33 Clash of the Tyrants][Page 33]] |
+| SAVIOR OF CENTAURI               | [[*30 Savior of Centauri][Page 30]] |
+| CAR BISCUIT                      | [[*39 Car Biscuit][Page 39]] |
+| THE MYSTERY OF SPIDER CAVE       | [[*18 The Mystery of Spider Cave][Page 18]] |
+| SURVIVE SUPERBIKE ISLAND         | [[*38 Survive Superbike Island][Page 38]] |
+| THE ASSASSINAIRE                 | [[*27 The Assassinaire][Page 27]] |
+| HACK ATTACK ON CYBER CITY        | [[*46 Hack Attack on Cyber City][Page 46]] |
+| THE CASE OF THE GUN IN YOUR FACE | [[*26 The Case of the Gun in your Face][Page 26]] |
+| THE CHILDREN OF SPACE            | [[*34 The Children of Space][Page 34]] |
+| THE NEVERENDING DUNGEON          | [[*22 The Neverending Dungeon][Page 22]] |
+| PEACH PIT SNAP ACADEMY           | [[*23 Peach Pit Snap Academy][Page 23]] |
