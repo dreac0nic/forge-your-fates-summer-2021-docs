@@ -5,6 +5,7 @@
 #+DATE: [2021-06-25 Fri]
 #+OPTIONS: num:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="diobla-info-custom.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" media="screen and (max-width: 800px)" href="mobile-hack-lol.css"/>
 
 * Pages
 #+NAME: Table of Contents
